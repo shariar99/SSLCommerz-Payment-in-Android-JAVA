@@ -37,16 +37,15 @@ This is an Android application that demonstrates how to integrate SSLCommerz lib
 
 To configure the SSLCommerz integration, you need to modify the following code in `MainActivity.java`:
 
-      ```java
-     sslCommerzInitialization = new SSLCommerzInitialization(
-    "your-sslcommerz-store-id",
-    "your-sslcommerz-store-password",
-    Double.parseDouble(amount),
-    SSLCCurrencyType.BDT,
-    amount,
-    "eshop",
-    SSLCSdkType.TESTBOX
-    );
+      `sslCommerzInitialization = new SSLCommerzInitialization(
+       "your-sslcommerz-store-id",
+       "your-sslcommerz-store-password",
+       Double.parseDouble(amount),
+       SSLCCurrencyType.BDT,
+       amount,
+       "eshop",
+        SSLCSdkType.TESTBOX
+       );
 
 Replace "your-sslcommerz-store-id" and "your-sslcommerz-store-password" with your own store ID and password provided by SSLCommerz.
 
