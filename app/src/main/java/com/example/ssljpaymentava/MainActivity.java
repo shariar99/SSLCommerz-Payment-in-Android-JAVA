@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity implements SSLCTransactionRe
 
     private void sslSetUp(String amount) {
         sslCommerzInitialization = new SSLCommerzInitialization(
-                "nexde63e48d9521823",
-                "nexde63e48d9521823@ssl",
+                "Here add your test id",
+                "here your test password",
                 Double.parseDouble(amount),
                 SSLCCurrencyType.BDT,
                 amount,
